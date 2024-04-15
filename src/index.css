@@ -1,0 +1,31 @@
+.container{
+  text-align: center;
+  border: 1px solid black;
+  margin: 30px;
+  padding: 1px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 82%);
+}
+#result{
+  font-family: monospace;
+  font-size: 3rem;
+}
+.Buttons button{
+  padding: 10px 20px;
+  margin: 15px 20px;
+  width: 106px;
+  background-color: hsl(193, 100%, 49%);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  user-select: none;
+}
+.Buttons button:hover{
+  background-color: hsl(193, 100%, 60%) ;
+}
+.Buttons button:active{
+  background-color:  hsl(193, 100%, 75%);
+}
